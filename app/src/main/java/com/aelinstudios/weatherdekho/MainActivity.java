@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText editText;
     private TextView textView,temp,tempmin,tempmax,pressure,humidity,reports;
     String baseURL="https://api.openweathermap.org/data/2.5/weather?q=";
-    String API="&appid=5f6ab1f0bc0a638b9e56ba0d8dde62c6";
+    String API="&appid=API_KEY";
     private RequestQueue requestQueue;
 
     @Override
